@@ -25,6 +25,8 @@ html {
     --background-modifier-accent: #37444D;
     --background-mentioned: rgb(29 155 240 / 0.075);
     --background-mentioned-hover: rgb(29 155 240 / 0.15);
+
+    --primary-330: white;
     
     --primary-630: #15202B;
     --primary-700: #15202B;
@@ -33,13 +35,16 @@ html {
     --channeltextarea-background: #15202B;
     --info-warning-foreground: none;
     --mention-foreground: #1D9BF0;
+
+    
     --interactive-active: white;;
     --channels-default: rgb(255 255 255 / 0.9);
     --text-muted: rgb(255 255 255 / 0.75);
     --channel-text-area-placeholder: rgb(255 255 255 / 0.75);
+    --channel-icon: white;
 }
 
-.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2 {
+.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n- {
     outline: 1px solid #37444D;
 }
 
@@ -58,8 +63,8 @@ html {
 }
 
 .panels-3wFtMD {
-     border-right: 1px solid #37444D;
-     border-top: 1px solid #37444D;
+    border-right: 1px solid #37444D;
+    border-top: 1px solid #37444D;
     box-sizing: border-box;
 }
 
@@ -122,8 +127,31 @@ html {
 
 .channel-1Shao0 {
     margin-top: 8px;
+    max-width: none;
 }
 
-.sidebar-1tnWFu {
+.sidebar-1tnWFu, .bannerImg-2PzH6z {
     width: 275px;
+}
+
+.containerDefault-YUSmu3 {
+    margin-top: 0;
+}
+
+.link-1_kTxV {
+    padding: 8px
+}
+
+.name-28HaxV, .name-2m3Cms {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+ul.content-yjf30S li:last-child {
+    padding-bottom: 12px
+}
+
+.spineBorder-1-F4s1 {
+   bottom: 34px !important;
 }
