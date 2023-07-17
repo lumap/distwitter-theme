@@ -25,11 +25,16 @@ html {
     --background-modifier-accent: #37444D;
     --background-mentioned: rgb(29 155 240 / 0.075);
     --background-mentioned-hover: rgb(29 155 240 / 0.15);
-
+    --__header-bar-background: #15202B;
+    --home-background: #15202B;
+    --deprecated-card-editable-bg: 115202B;
+    
     --primary-330: white;
     
     --primary-630: #15202B;
+    --primary-600: #15202B;
     --primary-700: #15202B;
+    --primary-700-hsl: #15202B;
     
     --elevation-low: none;
     --channeltextarea-background: #15202B;
@@ -44,8 +49,22 @@ html {
     --channel-icon: white;
 }
 
-.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs {
+.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs, .container-JhuCwn, .optionButtonWrapper-2lbogO {
     outline: 1px solid #37444D;
+}
+
+/* The background color of the header and content of the Channels & Roles tab is hardcoded */
+.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9 {
+    background-color: #15202B !important;
+}
+
+
+.input-3O04eu.textArea-3wfxMA {
+    outline: none;
+}
+
+.container-JhuCwn {
+    border-radius: 16px
 }
 
 .searchBar-jGtisZ {
@@ -77,7 +96,6 @@ html {
 
 .container-1-ERn5.hasBanner-2IrYih .header-3OsQeK {
     border-bottom: none;
-    border-right: none;
 }
 
 .title-31SJ6t, .container-ZMc96U  {
