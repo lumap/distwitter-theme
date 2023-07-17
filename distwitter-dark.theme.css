@@ -13,7 +13,9 @@ html {
 }
 
 
-.theme-dark {
+.theme-dark,
+.theme-light {
+    
     --background-primary: #15202B;
     --modal-background: #15202B;
     --background-secondary: #15202B;
@@ -21,19 +23,28 @@ html {
     --background-tertiary: #15202B;
     --background-floating: #15202B;
     --background-modifier-accent: #37444D;
+    --background-mentioned: rgb(29 155 240 / 0.075);
+    --background-mentioned-hover: rgb(29 155 240 / 0.15);
+    
     --primary-630: #15202B;
     --primary-700: #15202B;
+    
     --elevation-low: none;
     --channeltextarea-background: #15202B;
     --info-warning-foreground: none;
-    --background-mentioned: rgb(29 155 240 / 0.075);
-    --background-mentioned-hover: rgb(29 155 240 / 0.15);
     --mention-foreground: #1D9BF0;
-    --interactive-active: #1D9BF0;
+    --interactive-active: white;;
+    --channels-default: rgb(255 255 255 / 0.9);
+    --text-muted: rgb(255 255 255 / 0.75);
+    --channel-text-area-placeholder: rgb(255 255 255 / 0.75);
 }
 
 .wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2 {
     outline: 1px solid #37444D;
+}
+
+.searchBar-jGtisZ {
+    background: var(--bg-overlay-3,#263340);
 }
 
 .guilds-2JjMmN, .sidebar-nqHbhN, .scroller-WSmht3, .scroller-1ox3I2 {
@@ -94,4 +105,25 @@ html {
 .menu-2TXYjN{
     border: 1px solid #37444D;
     box-sizing: border-box;
+}
+
+.headerText-1qIDDT, .mainContent-uDGa6R>h3, .membersGroup-2eiWxl {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.emojiColorFill-3g46kH {
+     background-color: #263340 !important;   
+}
+
+.iconBadge-3Mmg92 {
+    background-color: #198CD8;
+}
+
+.channel-1Shao0 {
+    margin-top: 8px;
+}
+
+.sidebar-1tnWFu {
+    width: 275px;
 }
