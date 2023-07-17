@@ -1,3 +1,12 @@
+/**
+ * @name DisTwitter
+ * @author lumap
+ * @version 0.0.1
+ * @description Mimics the Dim theme from Twitter
+ * @source https://github.com/lumap/distwitter-theme/
+*/
+
+
 [data-popout-root],
 html {
     --brand-experiment: #198CD8;
