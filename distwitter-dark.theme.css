@@ -13,8 +13,7 @@ html {
 }
 
 
-.theme-dark,
-.theme-light {
+.theme-dark {
     --background-primary: #15202B;
     --modal-background: #15202B;
     --background-secondary: #15202B;
