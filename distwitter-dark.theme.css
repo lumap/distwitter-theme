@@ -13,8 +13,7 @@ html {
 }
 
 
-.theme-dark,
-.theme-light {
+.theme-dark {
     
     --background-primary: #15202B;
     --modal-background: #15202B;
@@ -42,14 +41,14 @@ html {
     --mention-foreground: #1D9BF0;
 
     
-    --interactive-active: white;;
+    --interactive-active: var(--brand-experiment);;
     --channels-default: rgb(255 255 255 / 0.9);
     --text-muted: rgb(255 255 255 / 0.75);
     --channel-text-area-placeholder: rgb(255 255 255 / 0.75);
     --channel-icon: white;
 }
 
-.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs, .container-JhuCwn, .optionButtonWrapper-2lbogO {
+.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs, .container-JhuCwn, .optionButtonWrapper-2lbogO, .container-jV-A82, .counter-2iDLRj, .authedApp-8q3NA9, .connection-YOVI9j, .metadataContainer-35U-On, .details-2q1D13>*, .accountCreditRow-320WuZ, .verticalFit-21XL0v, .preview-QJ3OG3, .preview-3k9WhO, .select-Zz0IcO, .item-1TA5qI, .vc-settings-card, .vc-plugins-card, .container-2oNtJn, .wrapper-24fR1R, .inputMaxLength-vpxzjq, .card-3JmxsM, .anchor-1X4H4q, .clickable-WBCFI5, .editCard-K9Q9mb, .auditLog-1NVAY0 {
     outline: 1px solid #37444D;
 }
 
@@ -69,6 +68,11 @@ html {
 
 .searchBar-jGtisZ {
     background: var(--bg-overlay-3,#263340);
+}
+
+.chat-1-OBC7, .container-ZMc96U {
+    border-left: 1px solid #37444D;
+    box-sizing: border-box;
 }
 
 .guilds-2JjMmN, .sidebar-nqHbhN, .scroller-WSmht3, .scroller-1ox3I2 {
