@@ -199,3 +199,11 @@ ul.content-yjf30S li:last-child {
 .spineBorder-1-F4s1 {
    bottom: 34px !important;
 }
+
+/* Modal footers */
+.theme-dark .footerSeparator-3U8YsT {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top: 1px solid #37444D;
+    box-sizing: border-box;
+}
