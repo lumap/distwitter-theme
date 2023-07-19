@@ -70,8 +70,8 @@ edited below. */
     background: var(--bg-overlay-3,#263340);
 }
 
-/* Outlines don't work to visually separate guilds & channels from the other parts of the app */
-.guilds-2JjMmN, .sidebar-nqHbhN, .scroller-WSmht3, .scroller-1ox3I2 {
+/* Outlines don't work/look ugly to visually separate guilds & channels from the other parts of the app */
+.guilds-2JjMmN, .sidebar-nqHbhN, .scroller-WSmht3, .scroller-1ox3I2, .resizeHandle-PBRzPC {
     border-right: 1px solid #37444D;
     box-sizing: border-box;
 }
