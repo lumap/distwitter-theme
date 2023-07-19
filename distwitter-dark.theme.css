@@ -57,7 +57,7 @@ edited below. */
 }
 
 /* The background color of the header and content of the Channels & Roles tab is hardcoded */
-.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9 {
+.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB {
     background-color: #15202B !important;
 }
 
@@ -68,12 +68,6 @@ edited below. */
 /* Make the search bar background actually visible */
 .searchBar-jGtisZ {
     background: var(--bg-overlay-3,#263340);
-}
-
-/* Threads sidebar and header */
-.chat-1-OBC7, .container-ZMc96U {
-    border-left: 1px solid #37444D;
-    box-sizing: border-box;
 }
 
 /* Outlines don't work to visually separate guilds & channels from the other parts of the app */
