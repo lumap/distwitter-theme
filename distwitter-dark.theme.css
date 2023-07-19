@@ -86,6 +86,7 @@ edited below. */
 .membersWrap-3NUR2t {
     border-left: 1px solid #37444D;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 /* More thread stuff */
