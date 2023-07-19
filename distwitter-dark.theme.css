@@ -207,3 +207,8 @@ ul.content-yjf30S li:last-child {
     border-top: 1px solid #37444D;
     box-sizing: border-box;
 }
+
+/* Makes the User Settings, mute and deafen button centered */
+.container-YkUktl {
+    justify-content: space-between;
+}
