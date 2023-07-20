@@ -1,0 +1,9 @@
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=bannerSVGWrapper-],
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=avatarWrapper-],
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=profileBadges-],
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=divider-],
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=section-],
+[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=scroller-]
+{
+  display: none;
+}

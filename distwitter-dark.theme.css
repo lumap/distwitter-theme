@@ -18,28 +18,32 @@ the variables that are actually used throughout the app have been
 edited below. */
 
 .theme-dark {
-    --background-primary: #15202B;
-    --modal-background: #15202B;
-    --background-secondary: #15202B;
-    --background-secondary-alt: #15202B;
-    --background-tertiary: #15202B;
-    --background-floating: #15202B;
-    --background-modifier-accent: #37444D;
+    --distwttr-bg: #15202B;
+    --distwttr-border: #37444D;
+
+    
+    --background-primary: var(--distwttr-bg);
+    --modal-background: var(--distwttr-bg);
+    --background-secondary: var(--distwttr-bg);
+    --background-secondary-alt: var(--distwttr-bg);
+    --background-tertiary: var(--distwttr-bg);
+    --background-floating: var(--distwttr-bg);
+    --background-modifier-accent: var(--distwttr-border);
     --background-mentioned: rgb(29 155 240 / 0.075);
     --background-mentioned-hover: rgb(29 155 240 / 0.15);
-    --__header-bar-background: #15202B;
-    --home-background: #15202B;
-    --deprecated-card-editable-bg: 115202B;
+    --__header-bar-background: var(--distwttr-bg);
+    --home-background: var(--distwttr-bg);
+    --deprecated-card-editable-bg: var(--distwttr-bg);
     
     --primary-330: white;
     
-    --primary-630: #15202B;
-    --primary-600: #15202B;
-    --primary-700: #15202B;
-    --primary-700-hsl: #15202B;
+    --primary-630: var(--distwttr-bg);
+    --primary-600: var(--distwttr-bg);
+    --primary-700: var(--distwttr-bg);
+    --primary-700-hsl: var(--distwttr-bg);
     
     --elevation-low: none;
-    --channeltextarea-background: #15202B;
+    --channeltextarea-background: var(--distwttr-bg);
     --info-warning-foreground: none;
     --mention-foreground: #1D9BF0;
     
@@ -52,13 +56,13 @@ edited below. */
 
 /* Add a border around a lot of elements, to mimic twitter's way to visually separate elements  */
 
-.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs, .container-JhuCwn, .optionButtonWrapper-2lbogO, .container-jV-A82, .counter-2iDLRj, .authedApp-8q3NA9, .connection-YOVI9j, .metadataContainer-35U-On, .details-2q1D13>*, .accountCreditRow-320WuZ, .verticalFit-21XL0v, .preview-QJ3OG3, .preview-3k9WhO, .select-Zz0IcO, .item-1TA5qI, .vc-settings-card, .vc-plugins-card, .container-2oNtJn, .wrapper-24fR1R, .inputMaxLength-vpxzjq, .card-3JmxsM, .clickable-WBCFI5, .editCard-K9Q9mb, .auditLog-1NVAY0, .embedFull-1HGV2S, .profilePanel-2VBkh8, .wrapperAudio-1Bzv_Z, .navigator-lOeWrY, .newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt, .rippleContainer-3ZCne6 {
-    outline: 1px solid #37444D;
+.wrapper-1HIH0j, .channelTextArea-1FufC0, .tile-2mmK5T, .input-3O04eu, .bioTextArea-dDGOeC, .reaction-3vwAF2, .accountProfileCard-lbN7n-, .compactButton-3hG-bs, .container-JhuCwn, .optionButtonWrapper-2lbogO, .container-jV-A82, .counter-2iDLRj, .authedApp-8q3NA9, .connection-YOVI9j, .metadataContainer-35U-On, .details-2q1D13>*, .accountCreditRow-320WuZ, .verticalFit-21XL0v, .preview-QJ3OG3, .preview-3k9WhO, .select-Zz0IcO, .item-1TA5qI, .vc-settings-card, .vc-plugins-card, .container-2oNtJn, .wrapper-24fR1R, .inputMaxLength-vpxzjq, .card-3JmxsM, .clickable-WBCFI5, .editCard-K9Q9mb, .auditLog-1NVAY0, .embedFull-1HGV2S, .profilePanel-2VBkh8, .wrapperAudio-1Bzv_Z, .navigator-lOeWrY, .newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt, .rippleContainer-3ZCne6, .embedCard-bDyD5S {
+    outline: 1px solid var(--distwttr-border);
 }
 
 /* The background color of the header and content of the Channels & Roles tab is hardcoded */
 .container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB {
-    background-color: #15202B !important;
+    background-color: var(--distwttr-bg) !important;
 }
 
 .container-JhuCwn {
@@ -72,28 +76,28 @@ edited below. */
 
 /* Outlines don't work/look ugly to visually separate guilds & channels from the other parts of the app */
 .guilds-2JjMmN, .sidebar-nqHbhN, .scroller-WSmht3, .scroller-1ox3I2, .resizeHandle-PBRzPC {
-    border-right: 1px solid #37444D;
+    border-right: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
 /* Members sidebar */
 .membersWrap-3NUR2t {
-    border-left: 1px solid #37444D;
+    border-left: 1px solid var(--distwttr-border);
     box-sizing: border-box;
     min-height: 100vh;
 }
 
 /* More thread stuff */
 .panels-3wFtMD {
-    border-right: 1px solid #37444D;
-    border-top: 1px solid #37444D;
+    border-right: 1px solid var(--distwttr-border);
+    border-top: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
 /* Server names */
 .header-3OsQeK {
-    border-bottom: 1px solid #37444D;
-    border-right: 1px solid #37444D;
+    border-bottom: 1px solid var(--distwttr-border);
+    border-right: 1px solid var(--distwttr-border);
     box-sizing: border-box;
     height: 48px !important;
 }
@@ -105,7 +109,7 @@ edited below. */
 
 /* Chat bar header */
 .title-31SJ6t, .container-ZMc96U  {
-    border-bottom: 1px solid #37444D;
+    border-bottom: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
@@ -117,8 +121,8 @@ edited below. */
 
 
 .searchBar-3TnChZ {
-    border-right: 1px solid #37444D;
-    border-bottom: 1px solid #37444D;
+    border-right: 1px solid var(--distwttr-border);
+    border-bottom: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
@@ -137,7 +141,7 @@ edited below. */
 
 /* Context menus */
 .menu-2TXYjN {
-    border: 1px solid #37444D;
+    border: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
@@ -199,7 +203,7 @@ ul.content-yjf30S li:last-child {
 .theme-dark .footerSeparator-3U8YsT {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-top: 1px solid #37444D;
+    border-top: 1px solid var(--distwttr-border);
     box-sizing: border-box;
 }
 
