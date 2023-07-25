@@ -215,3 +215,8 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
 .spoilerMarkdownContent-2R1Vwe {
     background-color: var(--primary-900);
 }
+
+/* Bug fix with copy paste */
+.content-1jQy2l {
+    min-height: 100%;
+}
