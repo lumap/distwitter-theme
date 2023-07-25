@@ -190,13 +190,13 @@ edited below. */
 }
 
 /* Add bottom padding to the last channel/DM to make it not stuck to the bottom of the app */
-ul.content-yjf30S[aria-label="Channels"] li:last-child {
+ul.content-yjf30S[aria-label="Channels"]>li:last-child {
     padding-bottom: 16px
 }
 
 /* Threads channel list UI to accomodate for the wider channels */
 .spineBorder-1-F4s1 {
-   bottom: 39px !important;
+   bottom: 30px !important;
 }
 
 /* Modal footers */
