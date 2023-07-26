@@ -62,10 +62,6 @@ edited below. */
     --home-background: var(--distwttr-bg);
     --deprecated-card-editable-bg: var(--distwttr-bg);
     --modal-footer-background: var(--distwttr-bg);
-    --primary-330: white;
-    --primary-630: var(--distwttr-bg);
-    --primary-700: var(--distwttr-bg);
-    --primary-700-hsl: var(--distwttr-bg);
     
     --elevation-low: none;
     --channeltextarea-background: var(--distwttr-bg);
