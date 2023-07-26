@@ -13,77 +13,6 @@ html {
     --brand-experiment: #198CD8;
 }
 
-/* Change the background colors of most elements in the app. Only 
-the variables that are actually used throughout the app have been
-edited below. */
-
-/***************************
-******* DARK THEME *********
-****************************/
-
-.theme-dark {
-    --distwttr-dark-bg: #15202B;
-    --distwttr-border: #37444D;
-
-    --background-primary: var(--distwttr-dark-bg);
-    --modal-background: var(--distwttr-dark-bg);
-    --background-secondary: var(--distwttr-dark-bg);
-    --background-secondary-alt: var(--distwttr-dark-bg);
-    --background-tertiary: var(--distwttr-dark-bg);
-    --background-floating: var(--distwttr-dark-bg);
-    --background-modifier-accent: var(--distwttr-border);
-    --background-mentioned: rgb(29 155 240 / 0.075);
-    --background-mentioned-hover: rgb(29 155 240 / 0.15);
-    --__header-bar-background: var(--distwttr-dark-bg);
-    --home-background: var(--distwttr-dark-bg);
-    --deprecated-card-editable-bg: var(--distwttr-dark-bg);
-    --modal-footer-background: var(--distwttr-dark-bg);
-
-    --primary-330: white;
-    --primary-630: var(--distwttr-dark-bg);
-    --primary-600: var(--distwttr-dark-bg);
-    --primary-700: var(--distwttr-dark-bg);
-    --primary-700-hsl: var(--distwttr-dark-bg);
-    
-    --elevation-low: none;
-    --channeltextarea-background: var(--distwttr-dark-bg);
-    --info-warning-foreground: none;
-    --mention-foreground: #1D9BF0;
-    
-    --interactive-active: var(--brand-experiment);;
-    --channels-default: rgb(255 255 255 / 0.9);
-    --text-muted: rgb(255 255 255 / 0.75);
-    --channel-text-area-placeholder: rgb(255 255 255 / 0.75);
-    --channel-icon: white;
-}
-
-/* The background color of the header and content of the Channels & Roles tab is hardcoded */
-.theme-dark .container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB {
-    background-color: var(--distwttr-dark-bg) !important;
-}
-
-/* Make the search bar background actually visible */
-.theme-dark .searchBar-jGtisZ {
-    background: var(--bg-overlay-3,#263340);
-}
-
-/* Channel Summaries */
-.theme-dark .topicsPillContainer-1LeYIf {
-    background-color: black;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-
-.theme-dark .spoilerMarkdownContent-2R1Vwe {
-    background-color: var(--primary-900);
-}
-
-/* Reactions */
-.theme-dark .emojiColorFill-3g46kH {
-    background-color: #263340 !important;   
-}
-
-
 
 /***************************
 ******* LIGHT THEME ********
@@ -91,67 +20,77 @@ edited below. */
 
 
 .theme-light {
-    --distwttr-light-bg: #FFFFFF;
+    --distwttr-bg: #FFFFFF;
+    --distwttr-border: #e4e4e4;
+    
+    --channels-default: #000000e6;
+    --text-muted: #000000bf;
+    --channel-text-area-placeholder: #000000bf;
+    --channel-icon: black;
+}
+
+/***************************
+******* DARK THEME *********
+****************************/
+
+.theme-dark {
+    --distwttr-bg: #15202B;
     --distwttr-border: #37444D;
 
-    
-    --background-primary: var(--distwttr-light-bg);
-    --modal-background: var(--distwttr-light-bg);
-    --background-secondary: var(--distwttr-light-bg);
-    --background-secondary-alt: var(--distwttr-light-bg);
-    --background-tertiary: var(--distwttr-light-bg);
-    --background-floating: var(--distwttr-light-bg);
+    --channels-default: #ffffffe6;
+    --text-muted: #ffffffbf;
+    --channel-text-area-placeholder: #ffffffbf;
+    --channel-icon: white;
+}
+
+/* Change the background colors of most elements in the app. Only 
+the variables that are actually used throughout the app have been
+edited below. */
+
+.theme-dark,
+.theme-light {
+    --background-primary: var(--distwttr-bg);
+    --modal-background: var(--distwttr-bg);
+    --background-secondary: var(--distwttr-bg);
+    --background-secondary-alt: var(--distwttr-bg);
+    --background-tertiary: var(--distwttr-bg);
+    --background-floating: var(--distwttr-bg);
     --background-modifier-accent: var(--distwttr-border);
     --background-mentioned: rgb(29 155 240 / 0.075);
     --background-mentioned-hover: rgb(29 155 240 / 0.15);
-    --__header-bar-background: var(--distwttr-light-bg);
-    --home-background: var(--distwttr-light-bg);
-    --deprecated-card-editable-bg: var(--distwttr-light-bg);
-    --modal-footer-background: var(--distwttr-light-bg);
-
-    --primary-330: black;
-    --primary-630: var(--distwttr-light-bg);
-    --primary-700: var(--distwttr-light-bg);
-    --primary-700-hsl: var(--distwttr-light-bg);
+    --__header-bar-background: var(--distwttr-bg);
+    --home-background: var(--distwttr-bg);
+    --deprecated-card-editable-bg: var(--distwttr-bg);
+    --modal-footer-background: var(--distwttr-bg);
+    --primary-330: white;
+    --primary-630: var(--distwttr-bg);
+    --primary-700: var(--distwttr-bg);
+    --primary-700-hsl: var(--distwttr-bg);
     
     --elevation-low: none;
-    --channeltextarea-background: var(--distwttr-light-bg);
+    --channeltextarea-background: var(--distwttr-bg);
     --info-warning-foreground: none;
     --mention-foreground: #1D9BF0;
     
     --interactive-active: var(--brand-experiment);;
-    --channels-default: rgb(0 0 0 / 0.9);
-    --text-muted: rgb(0 0 0 / 0.75);
-    --channel-text-area-placeholder: rgb(0 0 0 / 0.75);
-    --channel-icon: black;
 }
+
 
 /* The background color of the header and content of the Channels & Roles tab is hardcoded */
-.theme-light .container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB {
-    background-color: var(--distwttr-light-bg) !important;
-}
-
-/* Make the search bar background actually visible */
-.theme-light .searchBar-jGtisZ {
-    background: var(--bg-overlay-3,#EFF3F4);
+.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB {
+    background-color: var(--distwttr-bg) !important;
 }
 
 /* Channel Summaries */
-.theme-light .topicsPillContainer-1LeYIf {
-    background-color: black;
+.topicsPillContainer-1LeYIf {
+    background-color: var(--distwttr-bg);
     box-shadow: none;
     -webkit-box-shadow: none;
 }
 
-.theme-light .spoilerMarkdownContent-2R1Vwe {
-    background-color: var(--primary-200);
+.spoilerMarkdownContent-2R1Vwe {
+    background-color: var(--primary-900);
 }
-
-/* Reactions */
-.theme-light .emojiColorFill-3g46kH {
-    background-color: #263340 !important;   
-}
-
 
 /***************************
 ********* BORDERS **********
