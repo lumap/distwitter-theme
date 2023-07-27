@@ -2,7 +2,7 @@
  * @name DisTwitter
  * @author lumap
  * @version 0.0.1
- * @description Mimics the Dim theme from Twitter. DARK THEME ONLY
+ * @description Mimics the Dim theme from Twitter. ONLY DARK THEME IS SUPPORTED.
  * @source https://github.com/lumap/distwitter-theme/
 */
 
@@ -13,25 +13,9 @@ html {
     --brand-experiment: #198CD8;
 }
 
-
-/***************************
-******* LIGHT THEME ********
-****************************/
-
-
-.theme-light {
-    --distwttr-bg: #FFFFFF;
-    --distwttr-border: #e4e4e4;
-    
-    --channels-default: #000000e6;
-    --text-muted: #000000bf;
-    --channel-text-area-placeholder: #000000bf;
-    --channel-icon: black;
-}
-
-/***************************
-******* DARK THEME *********
-****************************/
+/* Change the background colors of most elements in the app. Only 
+the variables that are actually used throughout the app have been
+edited below. */
 
 .theme-dark {
     --distwttr-bg: #15202B;
@@ -41,14 +25,8 @@ html {
     --text-muted: #ffffffbf;
     --channel-text-area-placeholder: #ffffffbf;
     --channel-icon: white;
-}
 
-/* Change the background colors of most elements in the app. Only 
-the variables that are actually used throughout the app have been
-edited below. */
 
-.theme-dark,
-.theme-light {
     --background-primary: var(--distwttr-bg);
     --modal-background: var(--distwttr-bg);
     --background-secondary: var(--distwttr-bg);
