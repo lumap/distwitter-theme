@@ -43,7 +43,6 @@ edited below. */
     --deprecated-card-editable-bg: var(--distwttr-bg);
     --modal-footer-background: var(--distwttr-bg);
     --input-background: var(--distwttr-bg);
-    --search-ppoout-option-fade: var(--distwttr-bg);
     
     --elevation-low: none;
     --channeltextarea-background: var(--distwttr-bg);
@@ -229,6 +228,12 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
   display: none;
 }
 
+/* Forum search bar that l ooks like ass */
 .form-25Aujy * {
     outline: none;
+}
+
+/* Remove ugly srearch shit */
+.option-ayUoaq:after {
+    background: none;;
 }
