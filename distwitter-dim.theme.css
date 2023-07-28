@@ -25,8 +25,10 @@ edited below. */
     --text-muted: #ffffffbf;
     --channel-text-area-placeholder: #ffffffbf;
     --channel-icon: white;
+}
 
-
+.theme-dark,
+.theme-light {
     --background-primary: var(--distwttr-bg);
     --modal-background: var(--distwttr-bg);
     --background-secondary: var(--distwttr-bg);
