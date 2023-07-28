@@ -43,6 +43,7 @@ edited below. */
     --deprecated-card-editable-bg: var(--distwttr-bg);
     --modal-footer-background: var(--distwttr-bg);
     --input-background: var(--distwttr-bg);
+    --search-ppoout-option-fade: var(--distwttr-bg);
     
     --elevation-low: none;
     --channeltextarea-background: var(--distwttr-bg);
