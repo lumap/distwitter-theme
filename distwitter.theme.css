@@ -27,6 +27,16 @@ edited below. */
     --channel-icon: white;
 }
 
+.theme-light {
+    --distwttr-bg: #f7ddfb;
+    --distwttr-border: #d2d2d2;
+
+    --channels-default: #000000e6;
+    --text-muted: #000000bf;
+    --channel-text-area-placeholder: #000000bf;
+    --channel-icon: dark;
+}
+
 .theme-dark,
 .theme-light {
     --background-primary: var(--distwttr-bg);
