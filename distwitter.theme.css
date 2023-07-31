@@ -253,8 +253,14 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
     background: none;;
 }
 
+/* Buttons on message hover */
 .buttons-3dF5Kd {
     padding: 0;
     margin: 0 14px 0 32px;
     border-radius: 4px
+}
+
+/* Want to chain 3 replies? Create a thread */
+.threadSuggestionBar-3ExSyc {
+    display: none;
 }
