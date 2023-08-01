@@ -269,3 +269,8 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
 .followButton-1N-GGp {
     -webkit-app-region: no-drag;
 }
+
+/* Make menus touch each other 😳 */
+.submenuPaddingContainer-QgnL1r {
+    padding: 0 4px;
+}
