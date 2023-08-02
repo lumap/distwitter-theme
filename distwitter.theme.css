@@ -279,3 +279,14 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
 .tooltipPointer-sMBQqe {
     display: none;
 }
+
+/* Add niko_amazed badge in mini profile to myself */
+div[aria-label="lumap"] .profileBadges-2pItdR:before, .badgeList-2aoHPw>a[aria-label="arson enjoyer"]~.badgeList-2aoHPw:before {
+    content: '';
+    height: 22px;
+    width: 22px;
+    background-image: url(https://cdn.discordapp.com/emojis/1095486032910241843.webp?size=240&quality=lossless);
+    background-size: 22px;
+    cursor: pointer;
+
+}
