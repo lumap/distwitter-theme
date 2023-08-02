@@ -266,7 +266,7 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
 }
 
 /* Fix follow button and channel topics not being clickable */
-.followButton-1N-GGp {
+.followButton-1N-GGp, .topic-11NuQZ {
     -webkit-app-region: no-drag;
 }
 
