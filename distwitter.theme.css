@@ -65,7 +65,7 @@ edited below. */
 
 /* The background color of the header and content of the Channels & Roles tab is hardcoded
 Let's as well put elements that are coded weirdly here */
-.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB, .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly, .directoryContainer-z-0pgp, .footer-Ql9fbL {
+.container-2IKOsH, .container-1um7CU, .scrollerContainer-y16Rs9, .header-3xB4vB, .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly, .directoryContainer-z-0pgp, .footer-Ql9fbL, .pageWrapper-2PwDoS {
     background-color: var(--distwttr-bg) !important;
 }
 
