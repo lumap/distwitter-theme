@@ -274,3 +274,8 @@ ul.content-yjf30S[aria-label="Channels"]>li:last-child {
 .submenuPaddingContainer-QgnL1r {
     padding: 0 4px;
 }
+
+/* Removes little tooltip arrows */
+.tooltipPointer-sMBQqe {
+    display: none;
+}
