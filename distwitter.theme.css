@@ -6,6 +6,8 @@
  * @source https://github.com/lumap/distwitter-theme/
 */
 
+/* Import script for clean user popout */
+@import url(//raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout-final-v2.css);
 
 /* Set the main color of buttons & co */
 html {
@@ -264,21 +266,4 @@ div[aria-label="lumap"] .profileBadges-2pItdR:before {
     background-image: url(https://cdn.discordapp.com/emojis/1095486032910241843.webp?size=240&quality=lossless);
     background-size: 22px;
     cursor: pointer;
-}
-
-/* User popout */
-[class*=accountProfilePopoutWrapper-] [class*=userPopoutInner-]>:not(:last-child),
-[class*=accountProfilePopoutWrapper-] [class*=userPopoutOverlayBackground-]>:not(#account),
-[class*=accountProfilePopoutWrapper-] [class*=separator]
-{
-    display: none;
-}
-[class*=accountProfilePopoutWrapper-] [class*=userPopoutOverlayBackground-] {
-    margin: 0;
-}
-[class*=accountProfilePopoutWrapper-] {
-    border-radius: 8px
-}
-[class*=userPopoutOuter-] {
-    width: 300px !important;
 }
