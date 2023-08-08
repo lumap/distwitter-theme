@@ -156,6 +156,12 @@ Let's as well put elements that are coded weirdly here */
     box-sizing: border-box;
 }
 
+/* Expanded folders */
+.theme-dark .expandedFolderBackground-1kSAf6 {
+    box-shadow: 0 0 1px 1px var(--distwttr-border);
+    border-radius: 15px;
+}
+
 
 /***************************
 ****** ELEMENT SIZES *******
