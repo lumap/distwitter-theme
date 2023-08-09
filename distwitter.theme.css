@@ -162,6 +162,12 @@ Let's as well put elements that are coded weirdly here */
     border-radius: 15px;
 }
 
+/* Find or start a conversation */
+.searchBar-3TnChZ {
+    border-right: 1px solid var(--distwttr-border);
+    border-bottom: 1px solid var(--distwttr-border);
+}
+
 
 /***************************
 ****** ELEMENT SIZES *******
