@@ -92,7 +92,7 @@ Let's as well put elements that are coded weirdly here */
 
 
 /* Add a border around a lot of elements, to mimic twitter's way to visually separate elements  */
-.wrapper-1HIH0j, [class*=channelTextArea-], .tile-2mmK5T, .input-3O04eu, [class*=bioTextArea-], .reaction-3vwAF2, [class*=accountProfileCard-], [class*=compactButton-], [class*=optionButtonWrapper-], .container-jV-A82, .counter-2iDLRj, [class*=authedApp-], [class*=ConnectionList-]>[class*=connection-], [class*=metadataContainer-], [class*=accountCreditRow-], .verticalFit-21XL0v, .preview-QJ3OG3, .preview-3k9WhO, .select-Zz0IcO, .item-1TA5qI, .vc-settings-card, .vc-plugins-card, .container-2oNtJn, .wrapper-24fR1R, [class*=inputMaxLength-], .card-3JmxsM, .clickable-WBCFI5, .editCard-K9Q9mb, [class*=auditLog-], .embedFull-1HGV2S, [class*=profilePanel-], .wrapperAudio-1Bzv_Z, .navigator-lOeWrY, [class*=newMessagesPill-], [class*=newMessagesClear-], .rippleContainer-3ZCne6, .embedCard-bDyD5S, .mainCard-3KBsBI, .bar-wDIGjg, .message-G6O-Wv, .buttons-3dF5Kd, .optionPill-2kmuZR, .tooltip-33Jwqe, .container-3i3IzO, [class*=accountProfilePopoutWrapper-], .searchBar-jGtisZ {
+.wrapper-1HIH0j, [class*=channelTextArea-], .tile-2mmK5T, .input-3O04eu, [class*=bioTextArea-], .reaction-3vwAF2, [class*=accountProfileCard-], [class*=compactButton-], [class*=optionButtonWrapper-], .container-jV-A82, .counter-2iDLRj, [class*=authedApp-], [class*=ConnectionList-]>[class*=connection-], [class*=metadataContainer-], [class*=accountCreditRow-], .verticalFit-21XL0v, .preview-QJ3OG3, .preview-3k9WhO, .select-Zz0IcO, .item-1TA5qI, .vc-settings-card, .vc-plugins-card, .container-2oNtJn, .wrapper-24fR1R, [class*=inputMaxLength-], .card-3JmxsM, .clickable-WBCFI5, .editCard-K9Q9mb, [class*=auditLog-], .embedFull-1HGV2S, [class*=profilePanel-], .wrapperAudio-1Bzv_Z, .navigator-lOeWrY, [class*=newMessagesPill-], [class*=newMessagesClear-], .rippleContainer-3ZCne6, .embedCard-bDyD5S, .mainCard-3KBsBI, .bar-wDIGjg, .message-G6O-Wv, .buttons-3dF5Kd, .optionPill-2kmuZR, .tooltip-33Jwqe, .container-3i3IzO, [class*=accountProfilePopoutWrapper-], .searchBar-jGtisZ, [class*=codeContainer-], [class*=attachmentContentItem-] {
     outline: 1px solid var(--distwttr-border);
 }
 
@@ -260,7 +260,7 @@ Let's as well put elements that are coded weirdly here */
     -webkit-app-region: no-drag;
 }
 
-/* Make menus touch each other 😳 */
+/* Make menus touch each other ðŸ˜³ */
 [class*=submenuPaddingContainer-] {
     padding: 0 4px;
 }
@@ -270,12 +270,7 @@ Let's as well put elements that are coded weirdly here */
     display: none;
 }
 
-/* Add niko_amazed badge in mini profile to myself */
-div[aria-label="lumap"] .profileBadges-2pItdR:before {
-    content: '';
-    height: 22px;
-    width: 22px;
-    background-image: url(https://cdn.discordapp.com/emojis/1095486032910241843.webp?size=240&quality=lossless);
-    background-size: 22px;
-    cursor: pointer;
+/* Border radius for code and files */
+[class*=codeContainer-], [class*=attachmentContentItem-] {
+    border-radius: 4px
 }
